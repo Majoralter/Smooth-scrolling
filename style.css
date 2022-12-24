@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    transition: all .5s ease-in;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+button{
+    padding: 20px 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+}
+
+#section-1{
+    background-color: red;
+}
+
+#section-2{
+    background-color: blue;
+}
+
+#section-3{
+    background-color: blueviolet;
+}
+
+#section-4{
+    background-color: orangered;
+}
